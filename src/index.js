@@ -5,7 +5,7 @@ import indexRoutes from './routes/index.js'
 
 const app = express()
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
+    const __dirname = dirname(fileURLToPath(import.meta.url))
 console.log(join(__dirname, 'views'))
 
 
